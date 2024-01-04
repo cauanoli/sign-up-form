@@ -178,3 +178,14 @@ main form {
 .form-row input:valid {
   border-color: var(--clr-green);
 }
+
+.password-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.password-container > * {
+  flex: 1;
+}

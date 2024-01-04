@@ -50,31 +50,35 @@
               >Enter a valid email, example: name@email.com</span
             >
           </div>
-          <div class="form-row">
-            <label for="password">password</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Enter a password"
-              minlength="7"
-              maxlength="78"
-              required
-            />
-            <span class="advice">Between 7 and 78 characters</span>
+          <div class="password-container">
+            <div class="form-row">
+              <label for="password">password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter a password"
+                minlength="7"
+                maxlength="78"
+                required
+              />
+              <span class="advice">Between 7 and 78 characters</span>
+            </div>
+            <div class="form-row">
+              <label for="repeat-password">repeat password</label>
+              <input
+                type="password"
+                name="repeat-password"
+                id="repeat-password"
+                placeholder="Repeat the same password "
+                minlength="7"
+                maxlength="78"
+                required
+              />
+              <span class="advice">The passwords should be equal</span>
+            </div>
           </div>
-          <div class="form-row">
-            <label for="repeat-password">repeat password</label>
-            <input
-              type="password"
-              name="repeat-password"
-              id="repeat-password"
-              placeholder="Repeat the same password again"
-              minlength="7"
-              maxlength="78"
-              required
-            />
-          </div>
+
           <div class="form-row">
             <button type="submit" class="primary">Join for Free</button>
           </div>
