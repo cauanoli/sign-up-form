@@ -145,7 +145,7 @@ main form {
 }
 
 .form-row input,
-.form-row input:required {
+.form-row input:placeholder-shown:invalid {
   width: 100%;
   padding: 1rem 1.5rem;
   font-size: 1rem;
@@ -165,6 +165,10 @@ main form {
 
 .form-row span::before {
   display: block;
+}
+
+.form-row input:placeholder-shown:invalid + span {
+  color: var(--clr-dark);
 }
 
 .form-row input:invalid {
