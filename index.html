@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Chinese Sign-up</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a href="#" class="back-link">Go back</a>
+    <main>
+      <div class="left-container">
+        <img
+          src="./images/learning-chinese-illustration.jpg"
+          alt="An illustration of two people speaking chinese"
+        />
+        <p>
+          Learn chinese and other languages for free on your time with the
+          guides we recommend.
+        </p>
+      </div>
+
+      <div class="right-container">
+        <form action="" method="get">
+          <p>
+            Already have an account in Simple Chinese? <a href="">Login.</a>
+          </p>
+          <h1>Sign up to Simple Chinese</h1>
+          <div class="form-row">
+            <label for="full-name">full name</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Enter your full name"
+              required
+            />
+            <span class="error-message"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@email.com"
+              required
+            />
+            <span class="advice"
+              >Enter a valid email, example: name@email.com</span
+            >
+          </div>
+          <div class="form-row">
+            <label for="password">password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter a password"
+              minlength="7"
+              maxlength="78"
+              required
+            />
+            <span class="advice">Between 7 and 78 characters</span>
+          </div>
+          <div class="form-row">
+            <label for="repeat-password">repeat password</label>
+            <input
+              type="password"
+              name="repeat-password"
+              id="repeat-password"
+              placeholder="Repeat the same password again"
+              minlength="7"
+              maxlength="78"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <button type="submit" class="primary">Join for Free</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div>
+        This is NOT a real service. Website by
+        <a href="https://github.com/">@CauanOli</a>
+      </div>
+    </footer>
+  </body>
+</html>

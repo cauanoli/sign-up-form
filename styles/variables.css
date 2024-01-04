@@ -1,0 +1,17 @@
+:root {
+  --clr-primary: #f5222d;
+  --bg-light: #ffffff;
+  --bg-dark: #000000;
+  --clr-light: var(--bg-light);
+  --clr-dark: var(--bg-dark);
+  --clr-green: #52c41a;
+  --clr-red: #f5222d;
+  --clr-blue: #1677ff;
+  --clr-gray: #cdcdcd;
+
+  --footer-height: 3.75rem;
+  --left-container-content-width: 400px;
+
+  --border-radius-sm: 8px;
+  --border-radius-lg: 64px;
+}
