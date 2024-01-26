@@ -175,6 +175,25 @@ main form {
   border-color: var(--clr-red);
 }
 
+.input-wrapper {
+  display: grid;
+  grid-template-columns: auto 24px;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.form-row:has(input:not(:placeholder-shown):invalid) .input-wrapper::after {
+  font-family: "Material Symbols Outlined";
+  content: "\e000";
+  color: var(--clr-red);
+  align-self: center;
+  font-size: 2rem;
+}
+
+.input-wrapper {
+  width: 100%;
+}
+
 .form-row input:invalid + span {
   color: var(--clr-red);
 }
